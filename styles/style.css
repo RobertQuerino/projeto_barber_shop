@@ -1,0 +1,81 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: alvaro;
+  src: url(../fonts/alvaro/Alvaro-Condensed.otf) format(opentype);
+}
+
+@font-face {
+  font-family: Jersey;
+  src: url(../fonts/Jersey_15/Jersey15-Regular.ttf) format(truetype);
+}
+
+
+* {
+
+    padding: 0px;
+    margin: 0px;
+
+}
+
+:root {
+
+    --link: #FF4500;
+    --painel: #262625;
+
+}
+
+div#painel {
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    width: 100vw;
+    height: 90px;
+}
+
+div#painel > div#logotipo {
+
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+
+}
+
+div#painel > div#logotipo > img {
+
+    width: 120px;
+    height: 120px;
+    margin-right: -15px;
+
+}
+
+div#painel > div#logotipo > img#logo {
+
+    width: 120px;
+    height: 80px;
+
+}
+
+div#painel > a#agenda {
+
+    background-color: var(--link);
+    color: white;
+    padding: 10px;
+    font-size: 25px;
+    font-family: Jersey;
+    margin-right: 15px;
+    border-radius: 10px;
+    text-decoration: none;
+
+}
+
+div#painel > a#agenda:hover {
+
+    background-color: white;
+    color: black;
+    transition: 0.3s;
+    
+}
