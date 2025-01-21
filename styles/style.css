@@ -15,8 +15,10 @@
 
     padding: 0px;
     margin: 0px;
+    overflow-x: hidden;
 
 }
+
 
 :root {
 
@@ -118,7 +120,7 @@ div#informacoes {
     flex-flow: row nowrap;
     justify-content: center;
     align-items: center;
-    margin-top: 2em;
+    margin-top: 3em;
     
 }
 
