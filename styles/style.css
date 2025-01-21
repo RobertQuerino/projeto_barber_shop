@@ -84,7 +84,7 @@ section#painelprinc {
 
     background: url(../images/plano-fundo.png);
     width: 100vw;
-    height: 292px;
+    height: 280px;
     padding-bottom: 130px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -115,7 +115,6 @@ div#planofundo > img#logofundo {
 div#informacoes {
 
     display: flex;
-    width: 100vw;
     flex-flow: row nowrap;
     justify-content: center;
     align-items: center;
@@ -131,8 +130,8 @@ div#informacoes > section.inf {
     align-items: center;
     flex: auto;
     font-family: Jersey;
-    font-size: 20px;
-    height: 102px;
+    font-size: 15px;
+    height:90px;
     border: 3px solid white;
     background-color: rgba(0, 0, 0, 0.281);
     color: white;
