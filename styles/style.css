@@ -84,7 +84,7 @@ section#painelprinc {
 
     background: url(../images/plano-fundo.png);
     width: 100vw;
-    height: 280px;
+    height: 248px;
     padding-bottom: 130px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -118,7 +118,7 @@ div#informacoes {
     flex-flow: row nowrap;
     justify-content: center;
     align-items: center;
-    margin-top: 4em;
+    margin-top: 2em;
     
 }
 
@@ -128,7 +128,7 @@ div#informacoes > section.inf {
     flex-flow: column nowrap;
     justify-content: center;
     align-items: center;
-    flex: auto;
+    flex: 0 1 200px;
     font-family: Jersey;
     font-size: 15px;
     height:90px;
