@@ -15,10 +15,8 @@
 
     padding: 0px;
     margin: 0px;
-    overflow-x: hidden;
 
 }
-
 
 :root {
 
@@ -26,6 +24,7 @@
     --painel: #262625;
 
 }
+
 
 div#painel {
 
@@ -120,7 +119,7 @@ div#informacoes {
     flex-flow: row nowrap;
     justify-content: center;
     align-items: center;
-    margin-top: 3em;
+    margin-top: 2em;
     
 }
 
@@ -145,3 +144,4 @@ div#informacoes > section.inf > h3 {
     margin-top: 5px;
     margin-bottom: 5px;
 }
+
