@@ -79,3 +79,68 @@ div#painel > a#agenda:hover {
     transition: 0.3s;
     
 }
+
+section#painelprinc {
+
+    background: url(../images/plano-fundo.png);
+    width: 100vw;
+    height: 440px;
+    padding-bottom: 130px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+div#planofundo {
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+div#planofundo > img {
+
+    width: 400px;
+}
+
+div#planofundo > img#logofundo {
+
+    margin-right: -65px;
+
+}
+
+div#informacoes {
+
+    display: flex;
+    width: 100vw;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4em;
+    
+}
+
+div#informacoes > section.inf {
+
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    flex: auto;
+    font-family: Jersey;
+    font-size: 20px;
+    height: 102px;
+    border: 3px solid white;
+    background-color: rgba(0, 0, 0, 0.281);
+    color: white;
+}
+
+div#informacoes > section.inf > h3 {
+
+    color: var(--link);
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
