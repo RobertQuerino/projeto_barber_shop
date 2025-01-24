@@ -6,6 +6,7 @@
   <title>Barber Shop</title>
   <link rel="stylesheet" href="styles/style.css">
   <link rel="stylesheet" href="styles/media.css" media="screen and (min-width: 600px)">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
 </head>
 <body>
   
@@ -14,8 +15,10 @@
         <div id="painel">
 
             <div id="logotipo">
+
               <img src="images/logosite.png" alt="logopainel">
               <img id="logo" src="images/titulo-logo.png" alt="titulologo">
+
             </div>
             
             <a id="agenda" href="#">AGENDAR AGORA</a>
@@ -58,7 +61,21 @@
           </div>
 
         </section>
-        
+
+        <span id="burguer" class="material-icons" onclick="clickMenu()">menu</span>
+        <menu id="itens">
+
+            <ul>
+
+                <li> <a href="#">HOME</a></li>
+                <li> <a href="#">SOBRE NÓS</a></li>
+                <li> <a href="#">BARBA E CABELO</a></li>
+                <li> <a href="#">AGENDAR AGORA</a></li>
+
+            </ul>
+
+        </menu>
+
     </header>
     <main>
 
@@ -66,5 +83,31 @@
     <footer>
 
     </footer>
+
+    <script>
+
+
+      function mudouTamanho() {
+
+          if (window.innerWidth >= 768) {
+              itens.style.display = 'block'
+          } else {
+              itens.style.display = 'none'
+          }
+
+      }
+
+      function clickMenu() {
+
+          if (itens.style.display == 'block') {
+              itens.style.display = 'none'
+          } else {
+              itens.style.display = 'block'
+          }
+
+      }
+      
+   </script>
+
 </body>
 </html>

@@ -54,16 +54,16 @@ div#painel > div#logotipo {
 
 div#painel > div#logotipo > img {
 
-    width: 120px;
-    height: 120px;
-    margin-right: -15px;
+    width: 70px;
+    height: 70px;
+    margin-right: -10px;
 
 }
 
 div#painel > div#logotipo > img#logo {
 
-    width: 120px;
-    height: 80px;
+    width: 80px;
+    height: 50px;
 
 }
 
@@ -72,7 +72,7 @@ div#painel > a#agenda {
     background-color: var(--link);
     color: white;
     padding: 10px;
-    font-size: 25px;
+    font-size: 18px;
     font-family: Jersey;
     margin-right: 15px;
     border-radius: 10px;
@@ -92,7 +92,7 @@ section#painelprinc {
 
     background: url(../images/plano-fundo.png);
     width: 100vw;
-    height: 248px;
+    height: 245px;
     padding-bottom: 130px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -126,7 +126,7 @@ div#informacoes {
     flex-flow: row nowrap;
     justify-content: center;
     align-items: center;
-    margin-top: 2em;
+    margin-top: 1.8em;
     
 }
 
@@ -136,6 +136,7 @@ div#informacoes > section.inf {
     flex-flow: column nowrap;
     justify-content: center;
     align-items: center;
+    text-align: center;
     flex: 0 1 200px;
     font-family: Jersey;
     font-size: 15px;
@@ -150,5 +151,53 @@ div#informacoes > section.inf > h3 {
     color: var(--link);
     margin-top: 5px;
     margin-bottom: 5px;
+}
+
+span#burguer {
+
+    background-color: rgb(0, 0, 0);
+    color: white;
+    display: block;
+    text-align: center;
+    padding: 15px;
+    cursor: pointer;
+
+}
+
+span#burguer:hover {
+
+    background-color: white;
+    color: black;
+
+}
+
+menu {
+
+    display: none;
+
+}
+
+menu > ul {
+
+    list-style-type: none;
+
+}
+
+menu > ul > li > a {
+
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border-top: 2px solid gray ;
+
+}
+
+menu > ul > li > a:hover{
+
+    background-color: var(--painel);
+    
 }
 
