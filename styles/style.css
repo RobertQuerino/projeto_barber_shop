@@ -164,13 +164,6 @@ span#burguer {
 
 }
 
-span#burguer:hover {
-
-    background-color: white;
-    color: black;
-
-}
-
 menu {
 
     display: none;
@@ -199,5 +192,45 @@ menu > ul > li > a:hover{
 
     background-color: var(--painel);
     
+}
+
+aside {
+
+    display: flex;
+    flex-flow: row nowrap;
+
+}
+
+aside > div#imgintro {
+
+    width: 55vw;
+    height: 500px;
+    background: url(../images/imagem-introducao.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+aside > div#textintro {
+
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 45vw;
+    height: 500px;
+    max-height: 500px;
+    font-family: alvaro;
+    text-align: center;
+    font-size: 25px;
+
+}
+
+aside > div#textintro > h1 {
+
+    font-weight: 400;
+    margin-bottom: 20px;
+
 }
 
