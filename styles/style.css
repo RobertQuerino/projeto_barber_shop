@@ -241,25 +241,49 @@ span {
 }
 
 .carrossel {
+
     overflow: hidden;
-    width: 100%; /* Ajuste a largura total do carrossel */
-    height: 200px; /* Altura ajustada */
+    width: 100%;
+    height: 200px;
+    margin-bottom: 40px;
     position: relative;
+
 }
 
 .slides {
+
     display: flex;
-    width: calc(21 * 200px); /* Ajuste de largura para 6 imagens de 200px cada */
-    animation: slide 20s linear infinite; /* Tempo ajustado para fluidez */
+    width: calc(21 * 200px); 
+    animation: slide 20s linear infinite;
+
 }
 
 .slides img {
-    width: 200px; /* Largura das imagens */
-    height: 200px; /* Altura das imagens */
+
+    width: 200px; 
+    height: 200px; 
     object-fit: cover;
+
 }
 
 @keyframes slide {
+
     0% { transform: translateX(0); }
     100% { transform: translateX(-50%); }
+
+}
+
+section#selecao-cortes {
+
+    display: flex;
+    flex-flow: row wrap;
+    width: 100vw;
+    height: 600px;
+
+}
+
+section#selecao-cortes > div.editcabelo {
+
+    width: 250px;
+
 }
