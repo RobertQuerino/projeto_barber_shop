@@ -231,6 +231,35 @@ aside > div#textintro > h1 {
 
     font-weight: 400;
     margin-bottom: 20px;
+    font-size: 1.7em;
 
 }
 
+span {
+
+    color: var(--link);
+}
+
+.carrossel {
+    overflow: hidden;
+    width: 100%; /* Ajuste a largura total do carrossel */
+    height: 200px; /* Altura ajustada */
+    position: relative;
+}
+
+.slides {
+    display: flex;
+    width: calc(21 * 200px); /* Ajuste de largura para 6 imagens de 200px cada */
+    animation: slide 20s linear infinite; /* Tempo ajustado para fluidez */
+}
+
+.slides img {
+    width: 200px; /* Largura das imagens */
+    height: 200px; /* Altura das imagens */
+    object-fit: cover;
+}
+
+@keyframes slide {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-50%); }
+}
