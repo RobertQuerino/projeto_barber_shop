@@ -375,11 +375,20 @@ div.back {
 
 }
 
-div.back > p {
+div.back > H3 {
 
     font-family: jersey;
     font-size: 30px;
-    text-align: center;
+    font-weight: 100;
+    background-color: rgba(0, 0, 0, 0.466);
+    color: white;
+
+}
+
+div.back > p {
+
+    font-family: jersey;
+    font-size: 20px;
     background-color: rgba(0, 0, 0, 0.466);
     color: white;
 }
