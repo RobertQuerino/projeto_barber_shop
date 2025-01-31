@@ -121,29 +121,72 @@
 
         </div>
 
-        <h1>TRADIÇÃO E QUALIDADE</h1>
-        <section id="selecao-cortes">
+        <h1 id="selecao-cabelo">TRADIÇÃO E QUALIDADE</h1>
 
-            <div class="editcabelo" id="cabelo">
+            <div id="cardcabelo">
 
-                <img src="images/icone-cabelo.png" alt="cabelo-corte">
-                <h3>CORTE DE CABELO</h3>
+                <div class="card-container" onclick="this.classList.toggle('flipped')">
 
+                    <div class="card">
+                        <div class="front">
+                            <img src="images/icone-cabelo.png" alt="corte-cabelo">
+                            <p>CORTE DE CABELO</p>
+                        </div>
+                        <div class="back">
+                
+                            <p>Corte Simples: R$ 50,00</p>
+                            <p>Corte com Tesoura: R$ 70,00</p>
+                            <p>Coloração: R$ 120,00</p>
+                            <p>Retoque de Raiz: R$ 80,00</p>
+                            <p>Descoloração: R$ 100,00</p>
+
+                        </div>
+                    </div>
+                
+                </div>
+
+                <div class="card-container" onclick="this.classList.toggle('flipped')">
+                    <div class="card">
+                        <div class="front">
+                
+                            <img src="images/icone-barba.png" alt="corte-cabelo">
+                            <p>CORTE DE BARBA</p>
+                        </div>
+                        <div class="back">
+                
+                            <p>Barba Rente: R$ 30,00 a R$ 60,00</p>
+                            <p>Barba Clássica: R$ 40,00 a R$ 80,00</p>
+                            <p>Barba Lenhador: R$ 50,00 a R$ 100,00</p>
+                            <p>Barba Desenhada: R$ 60,00 a R$ 120,00</p>
+                            <p>Barba Completa com Aparação: R$ 70,00 a R$ 150,00</p>
+
+                        </div>
+                    </div>
+                
+                
+                </div>
+                <div class="card-container" onclick="this.classList.toggle('flipped')">
+
+                    <div class="card">
+                        <div class="front">
+                
+                            <img src="images/icone-barba-cabelo.png" alt="corte-cabelo">
+                            <p>BARBA E CABELO</p>
+                        </div>
+                        <div class="back">
+                
+                            <p>Corte Simples + Barba Rente: R$ 70,00 a R$ 160,00</p>
+                            <p>Corte em Camadas + Barba Clássica: R$ 100,00 a R$ 200,00</p>
+                            <p>Corte Desfiado + Barba Lenhador: R$ 120,00 a R$ 220,00</p>
+                            <p>Corte com Tesoura + Barba Desenhada: R$ 130,00 a R$ 250,00</p>
+                          
+
+                        </div>
+                    </div>
+                
+                </div>
             </div>
-            <div class="editcabelo" id="barba">
-
-                <img src="images/icone-barba.png">
-                <h3>BARBA</h3>
-
-            </div>
-            <div class="editcabelo" id="barba-cabelo">
-
-                <img src="images/icone-barba-cabelo.png">
-                <h3>BARBA E CABELO</h3>
-
-            </div>
-
-        </section>
+            <script src="script.js"></script>
 
     </main>
     <footer>
