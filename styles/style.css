@@ -472,12 +472,15 @@ section#local {
     height: 590px;
 }
 
-section#local > iframe {
+section#local > a {
 
     margin-top: 80px;
     border-radius: 15px;
-    width: 72%;
+    width: 72vw;
     height: 400px;
+    background: url(../images/imagem-mapa.png);
+    background-position: center center;
+    background-size: cover;
 }
 
 section#local > h1 {
@@ -495,7 +498,8 @@ address#infofinal {
 
     display: flex;
     flex-flow: row nowrap;
-    justify-content: space-evenly;
+    justify-content: center;
+    align-items: center;
     background-color: black;
     color: white;
     width: 100vw;
@@ -525,11 +529,20 @@ div#logofinal > img#titulorodape {
 
 }
 
+div#foot-position {
+
+    display: flex;
+    flex-flow: row wrap;
+    margin-left: 60px;
+
+}
+
 address.foot {
 
     display: flex;
-    flex-flow: column nowrap;
+    flex-flow: column wrap;
     justify-content: center;
+    margin-right: 20px;
 
 }
 
@@ -551,7 +564,9 @@ address.foot > div.adreesfoot > img {
 
 address.foot > div.adreesfoot > p {
 
-    font-size: 12px;
+    font-family: jersey;
+    font-size: 14px;
+    margin-left: 2px;
 }
 
 div.adreesfoot {
@@ -568,5 +583,6 @@ footer {
     color: white;
     width: 100vw;
     height: 30px;
+    font-size: 13px;
 
 }
