@@ -5,7 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Barber Shop</title>
   <link rel="stylesheet" href="styles/style.css">
-  <link rel="stylesheet" href="styles/media.css" media="screen and (min-width: 600px)">
+  <link rel="stylesheet" href="styles/tablet.css" media="screen and (min-width: 800px) and (max-width: 1000px)">
+  <link rel="stylesheet" href="desktop.css" media="screen and (min-width: 1000px)">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
   <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
 </head>
@@ -21,8 +22,18 @@
               <img id="logo" src="images/titulo-logo.png" alt="titulologo">
 
             </div>
-            
-            <a id="agenda" href="#">AGENDAR AGORA</a>
+            <nav id="navitem">
+
+                <ul>
+
+                    <li> <a href="#textintro">SOBRE NÓS</a></li>
+                    <li> <a href="#selecao-cabelo">BARBA E CABELO</a></li>
+                    <li> <a href="#sec-equi">NOSSA EQUIPE</a></li>
+                    <li> <a href="#local">LOCALIZAÇÃO</a></li>
+    
+                </ul>
+            </nav>
+            <a id="agenda" href="https://wa.me/5511937679558">AGENDAR AGORA</a>
 
         </div>
 
@@ -68,12 +79,12 @@
 
             <ul>
 
-                <li> <a href="#">SOBRE NÓS</a></li>
-                <li> <a href="#">BARBA E CABELO</a></li>
-                <li> <a href="#">NOSSA EQUIPE</a></li>
-                <li> <a href="#">LOCALIZAÇÃO</a></li>
+                <li> <a href="#textintro">SOBRE NÓS</a></li>
+                <li> <a href="#selecao-cabelo">BARBA E CABELO</a></li>
+                <li> <a href="#sec-equi">NOSSA EQUIPE</a></li>
+                <li> <a href="#local">LOCALIZAÇÃO</a></li>
                 <span id="agendamenu">
-                    <li> <a href="#">AGENDAR AGORA</a></li>
+                    <li> <a href="https://wa.me/5511937679558" target="_blank" rel="external">AGENDAR AGORA</a></li>
                 </span>
 
             </ul>
@@ -88,7 +99,7 @@
               <div id="imgintro"> </div>
               <div id="textintro">
 
-                    <h1>Bem-vindo à <br>Barber Shop!</h1>
+                    <h1 id="secao1">Bem-vindo à <br>Barber Shop!</h1>
                     <p>Na <span>Barber Shop</span>, tradição e modernidade se encontram para proporcionar uma experiência única em cuidados masculinos. Nossa missão é oferecer um atendimento de excelência, com cortes clássicos e tendências contemporâneas, sempre respeitando a individualidade e o estilo de cada cliente</p>
 
               </div>
@@ -193,26 +204,24 @@
                 </div>
             </div>
             <script src="script.js"></script>
-            <section id="funcionarios">
+            <section id="quadro-funcionarios">
 
                 <h1 id="sec-equi">EQUIPE</h1>
-                <div id="func1">
+                <div id="funcionarios">
 
-                    <img src="images/imagem-equipe.png" alt="ícone equipe">
-                    <h3>Roberto Augusto</h3>
+                    <div id="func1">
+                        <img src="images/imagem-equipe.png" alt="ícone equipe">
+                        <h3>Roberto Augusto</h3>
+                    </div>
+                    <div id="func2">
+                        <img src="images/imagem-equipe.png" alt="ícone equipe">
+                        <h3>Fernanda Silva</h3>
+                    </div>
+                    <div id="func3">
+                        <img src="images/imagem-equipe.png" alt="ícone equipe">
+                        <h3>Paulo André</h3>
 
-                </div>
-                <div id="func2">
-
-                    <img src="images/imagem-equipe.png" alt="ícone equipe">
-                    <h3>Fernanda Silva</h3>
-
-                </div>
-                <div id="func3">
-
-                    <img src="images/imagem-equipe.png" alt="ícone equipe">
-                    <h3>Paulo André</h3>
-
+                    </div>
                 </div>
 
             </section>

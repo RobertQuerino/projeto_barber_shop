@@ -22,6 +22,7 @@ html, body {
 
     width: 100%;
     overflow-x: hidden;
+    scroll-behavior: smooth;
     
 }
 
@@ -69,6 +70,11 @@ div#painel > div#logotipo > img#logo {
     width: 80px;
     height: 50px;
 
+}
+
+nav#navitem {
+
+    display: none;
 }
 
 div#painel > a#agenda {
@@ -406,7 +412,7 @@ div.back > p {
     color: white;
 }
 
-section#funcionarios {
+section#quadro-funcionarios {
 
     display: flex;
     flex-flow: column nowrap;
@@ -418,23 +424,33 @@ section#funcionarios {
     background-repeat: no-repeat;
     background-size: cover;
     width: 100vw;
+    height: 95em;
+
+}
+
+div#funcionarios {
+
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 25px;
     height: 88em;
 
 }
 
-section#funcionarios > h1#sec-equi {
+h1#sec-equi {
 
     font-family: alvaro;
     font-size: 50px;
     font-weight: 400;
     color: white;
     text-decoration: underline var(--link) 3px;
-    margin-top: -40px;
-    margin-bottom: -60px;
+    margin-bottom: -130px;
 
 }
 
-section#funcionarios > div {
+div#funcionarios > div {
 
     display: flex;
     flex-flow: column nowrap;
@@ -540,7 +556,7 @@ div#foot-position {
 address.foot {
 
     display: flex;
-    flex-flow: column nowrap;
+    flex-flow: column wrap;
     justify-content: center;
     align-items: center;
     margin-right: 20px;
@@ -574,14 +590,12 @@ div.adreesfoot {
 address.foot > h3 {
 
     margin-bottom: 5px;
-    font-size: 30px;
-
 }
 
 div.adreesfoot > a > img {
 
-    width: 30px;
-    height: 35px;
+    width: 25px;
+    height: 30px;
 
 }
 

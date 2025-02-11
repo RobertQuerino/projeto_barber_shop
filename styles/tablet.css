@@ -55,3 +55,52 @@ aside > div#textintro > h1 {
 
 }
 
+span#burguer {
+
+    display: none;
+
+}
+
+
+nav#navitem {
+
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+nav#navitem > ul {
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    gap: 40px;
+}
+
+nav#navitem > ul > li {
+
+    font-family: jersey;
+    font-size: 20px;
+}
+
+nav#navitem > ul > li > a {
+
+    text-decoration: none;
+    color: white;
+}
+
+nav#navitem > ul > li > a:hover {
+
+    color: var(--link);
+
+}
+
+div#cardcabelo {
+
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-evenly;
+    
+}
+
+

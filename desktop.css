@@ -1,0 +1,115 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: alvaro;
+  src: url(../fonts/alvaro/Alvaro-Condensed.otf) format(opentype);
+}
+
+@font-face {
+  font-family: Jersey;
+  src: url(../fonts/Jersey_15/Jersey15-Regular.ttf) format(truetype);
+}
+
+:root {
+
+  --link: #FF4500;
+  --painel: #262625;
+
+}
+
+aside > div#textintro {
+
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  width: 45vw;
+  height: 500px;
+  max-height: 500px;
+  font-family: alvaro;
+  text-align: center;
+  font-size: 33px;
+
+}
+
+aside > div#textintro > h1 {
+
+  font-weight: 400;
+  margin-bottom: 20px;
+  font-size: 2em;
+
+}
+
+span#burguer {
+
+  display: none;
+
+}
+
+
+nav#navitem {
+
+  display: flex;
+  justify-content: space-evenly;
+
+}
+
+nav#navitem > ul {
+
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-evenly;
+  gap: 50px;
+}
+
+nav#navitem > ul > li {
+
+  font-family: jersey;
+  font-size: 20px;
+}
+
+nav#navitem > ul > li > a {
+
+  text-decoration: none;
+  color: white;
+}
+
+nav#navitem > ul > li > a:hover {
+
+  color: var(--link);
+
+}
+
+div#cardcabelo {
+
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-evenly;
+  
+}
+
+section#quadro-funcionarios {
+
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-evenly;
+  align-items: center;
+  background: url(../images/imagem-carrossel9.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 50em;
+
+}
+
+div#funcionarios {
+
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 88em;
+  gap: 35px;
+
+}
