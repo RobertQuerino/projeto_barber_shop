@@ -94,12 +94,18 @@ section#quadro-funcionarios {
   flex-flow: column nowrap;
   justify-content: space-evenly;
   align-items: center;
-  background: url(../images/imagem-carrossel9.png);
+  background: url(images/imagem-carrossel9.png);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
   width: 100vw;
-  height: 50em;
+  height: 550px;
+
+}
+
+h1#sec-equi {
+
+  margin-top: 50px;
 
 }
 
@@ -107,9 +113,9 @@ div#funcionarios {
 
   display: flex;
   flex-flow: row nowrap;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
-  height: 88em;
+  margin-top: 100px;
   gap: 35px;
 
 }
